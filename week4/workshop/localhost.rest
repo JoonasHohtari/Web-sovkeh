@@ -1,0 +1,19 @@
+GET http://localhost:5000/api/cities
+
+###
+
+GET http://localhost:5000/api/cities/1
+
+###
+
+POST http://localhost:5000/api/cities
+Content-Type: application/json
+
+{
+"capital": "Stockholm",
+"country": "Sweden"
+}
+
+###
+
+DELETE http://localhost:5000/api/cities/2

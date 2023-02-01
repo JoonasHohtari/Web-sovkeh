@@ -1,0 +1,13 @@
+GET http://localhost:5000/api/cities
+
+###
+POST http://localhost:5000/api/cities
+Content-Type: application/json
+
+{
+  "capital": "Maputo",
+  "country": "Mozabique"
+}
+
+### 
+DELETE http://localhost:5000/api/cities/1
